@@ -35,4 +35,11 @@ int main()
 
 	cout << "Final: ";
 	cin >> final_grade;
+
+	double a = homework_percent / 100.0;
+	double b = midterm_percent / 100.0;
+	double c = final_percent / 100.0;
+
+	double grade = (a*homework_grade) + (b*midterm_grade) + (c*final_grade);
+	cout << "Your final grade is: " << grade << "%" << endl;
 }
