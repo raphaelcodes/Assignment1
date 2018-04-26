@@ -28,8 +28,20 @@ int main()
 	cout << "Midterm %: ";
 	cin >> midterm_percent;
 
+	if (midterm_percent < 0 || midterm_percent > 100)
+	{
+		cout << "The midterm percentage needs to be between 0 and 100." << endl;
+		return 1;
+	}
+
 	cout << "Final %: ";
 	cin >> final_percent;
+
+	if (final_percent < 0 || final_percent > 100)
+	{
+		cout << "The final percentage needs to be between 0 and 100." << endl;
+		return 1;
+	}
 
 	cout << "Now enter your grades." << endl;
 
