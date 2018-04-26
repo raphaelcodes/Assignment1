@@ -19,6 +19,12 @@ int main()
 	cout << "Homework %: ";
 	cin >> homework_percent;
 
+	if (homework_percent < 0 || homework_percent > 100)
+	{
+		cout << "The homework percentage needs to be between 0 and 100." << endl;
+		return 1;
+	}
+
 	cout << "Midterm %: ";
 	cin >> midterm_percent;
 
