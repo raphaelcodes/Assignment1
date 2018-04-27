@@ -60,5 +60,5 @@ int main()
 
 	double grade = (a*homework_grade) + (b*midterm_grade) + (c*final_grade);
 	cout << "Your final grade is: " << grade << "%" << endl;
-	cout << "Thank you, Bye! << endl;
+	cout << "Thank you, Bye!" << endl;
 }
