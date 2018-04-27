@@ -63,5 +63,18 @@ int main()
 
 	double grade = (a*homework_grade) + (b*midterm_grade) + (c*final_grade);
 	cout << "Your final grade is: " << grade << "%" << endl;
+
+	if (grade >= 90 && grade <= 100)
+		cout << "Congrats you got an A" << endl;
+	else if (grade >= 80 && grade < 90)
+		cout << "Good job you got a B" << endl;
+	else if (grade >= 70 && grade < 80)
+		cout << "You got a C" << endl;
+	else if (grade >= 60 && grade < 70)
+		cout << "Sorry, you got a D" << endl;
+	else if (grade >= 0 && grade < 60)
+		cout << "You failed, you got an F" << endl;
+	else cout << "There was an error in calculating your grade, please try again." << endl;
+
 	cout << "Thank you, Bye!" << endl;
 }
