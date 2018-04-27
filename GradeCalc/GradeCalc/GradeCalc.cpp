@@ -5,7 +5,10 @@ using namespace std;
 
 int main()
 {
+	cout << "----------------------------" << endl;
 	cout << "Welcome to Grade Calculator!" << endl;
+	cout << "----------------------------" << endl;
+	cout << endl;
 
 	int homework_percent;
 	int midterm_percent;
