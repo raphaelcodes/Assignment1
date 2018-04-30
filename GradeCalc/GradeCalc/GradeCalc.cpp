@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	cout << "----------------------------" << endl;
-	cout << "Welcome to Grade Calculator!" << endl;
+	cout << "WELCOME TO GRADE CALCULATOR!" << endl;
 	cout << "----------------------------" << endl;
 	cout << endl;
 
